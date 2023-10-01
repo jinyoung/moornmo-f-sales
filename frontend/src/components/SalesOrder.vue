@@ -16,7 +16,6 @@
         </v-card-title >        
 
         <v-card-text>
-            <List&lt;OrderItem&gt; offline label="OrderItems" v-model="value.orderItems" :editMode="editMode" @change="change"/>
             <OrderItemManager offline label="OrderItems" v-model="value.orderItems" :editMode="editMode" @change="change"/>
         </v-card-text>
 
