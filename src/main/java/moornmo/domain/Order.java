@@ -20,6 +20,9 @@ public class Order {
     @ElementCollection
     private List<OrderItem> orderItems;
 
+    @Embedded
+    private CompanyId companyId;
+
     public static OrderRepository repository() {
         OrderRepository orderRepository = SalesApplication.applicationContext.getBean(
             OrderRepository.class

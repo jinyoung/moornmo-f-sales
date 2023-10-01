@@ -109,6 +109,7 @@
             
             me.newValue = {
                 'orderItems': [],
+                'companyId': {},
             }
         },
         methods:{

@@ -6,6 +6,7 @@
 
         <v-card-text>
             <OrderItemManager offline label="OrderItems" v-model="item.orderItems" :editMode="false" @change="change" />
+            <CompanyId offline label="CompanyId" v-model="item.companyId" :editMode="false" :key="false" @change="change" />
         </v-card-text>
 
         <v-card-actions>

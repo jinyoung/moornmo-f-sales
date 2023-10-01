@@ -68,6 +68,7 @@
                 [
                     { text: "id", value: "id" },
                     { text: "orderItems", value: "orderItems" },
+                    { text: "companyId", value: "companyId" },
                 ],
             order : [],
             newValue: {},
@@ -86,6 +87,7 @@
 
             this.newValue = {
                 'orderItems': [],
+                'companyId': {},
             }
         },
         methods: {
